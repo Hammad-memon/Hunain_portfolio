@@ -117,6 +117,7 @@ padding: 25px 20px;
     font-size: 35px;
     font-weight: 700 !important;
     text-decoration: none;
+    
 }
 
 .navigation-menu{
@@ -206,9 +207,9 @@ cursor: pointer;
         transform: rotate(0deg);
 }
 }
-/* .buttons{
+.buttons{
 margin-left: 10%;
-} */
+}
 .button-1{
     background-color:var(--Purple);
     border:1px solid var(--Purple);
@@ -622,6 +623,8 @@ textarea{
 .portfolio_pic img{
     border:10px solid var(--Purple) ;
     border-radius: 50%;
+    width: 300px;
+    height: 300px;
 }
 
 
