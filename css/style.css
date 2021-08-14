@@ -5,7 +5,15 @@
 :root{
     --Purple:#55198b;
 }
-
+body::-webkit-scrollbar{
+	width: 5px;
+	border-radius: 20px;
+position:absolute;
+}
+body::-webkit-scrollbar-thumb
+{
+	background-color: #55198b;	
+}
 *{
     padding:0;
     margin: 0;
@@ -114,7 +122,7 @@ header{
 float: left;
 padding: 25px 20px;
     color: var(--Purple);
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 700 !important;
     text-decoration: none;
     
@@ -229,7 +237,7 @@ text-decoration: none;
     outline: none;
 }
 .icons{
-font-size: 40px;
+font-size: 10px;
 }
 .github i {
 background-color: #333;
@@ -470,7 +478,7 @@ color: #fff;
         box-shadow: 10px 10px 16px #CCC;
     }
     .experience-text-details p {
-color: #ccc;
+     color: #ccc;
     }
     .experience-text-details ul {
         color: #ccc;
@@ -516,7 +524,7 @@ color: #ccc;
     
     .portfolio-website-main:hover::-webkit-scrollbar-thumb
     {
-        background-colorvar(--Purple);
+        background-color:var(--Purple);
         
     
     }
@@ -563,7 +571,7 @@ color: #ccc;
         top:0
     }
     /* follow */
-.follow{
+  .follow{
     color: var(--Purple);
 }
 .follow_on{
@@ -621,10 +629,11 @@ textarea{
     text-decoration: none;
 }
 .portfolio_pic img{
-    border:10px solid var(--Purple) ;
+    border:10px solid var(--Purple);
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+  
 }
 
 
