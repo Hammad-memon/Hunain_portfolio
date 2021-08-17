@@ -229,6 +229,8 @@ transition: .3s ease;
 color: white;   
 font-size: 15px;
 text-decoration: none;
+display: inline-block;
+margin-top: 5%;
 
 }
 .button-1:hover{
@@ -631,11 +633,13 @@ textarea{
 .portfolio_pic img{
     border:10px solid var(--Purple);
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+     width: 400px;
+    height: auto; 
   
 }
-
+.portfolio_pic{
+    width: 100px;
+}
 
 
 
@@ -694,9 +698,11 @@ textarea{
         border: 1px solid var(--Purple);
         outline: var(--Purple);
     }
+    
     .icon{
         color: #fff;
     }
+  
     .icon:hover{
         color:var(--Purple)
     }
@@ -719,4 +725,25 @@ textarea{
     margin:0 ;
 }
 
+}
+
+.fa-home:before {
+    padding: 0 5px;
+}
+.fa-align-left:before {
+   
+    padding: 0 5px;
+}
+.fa-buffer:before {
+    padding: 0 5px;
+}
+.fa-poll-h:before {
+     padding: 0 5px;
+}
+.fa-link:before {
+ 
+    padding: 0px 5px;
+}
+.fa-headset:before {
+     padding: 0 5px;
 }
