@@ -127,7 +127,6 @@ padding: 25px 20px;
     text-decoration: none;
     
 }
-
 .navigation-menu{
     float:right;
     display: flex;
@@ -168,7 +167,6 @@ line-height: 90px !important;
 display: none !important ;
 cursor: pointer;
 }
-
 /* Navigation End */
 
 /* Home Start */
@@ -187,7 +185,6 @@ cursor: pointer;
     line-height: 1.1;
     color: var(--Purple)!important;
     /* float: left; */
-   
 }
 .wave-emoji   {
     font-size: 60px;
