@@ -32,13 +32,10 @@ h6{
     padding: 21px;
     background-color: var(--Purple);
     border-radius: 50px;
-	
 }
 /* #toTopBtn:hover{
     background-color: #fff;
 } */
-
-
 .js .cd-top--fade-out {
     opacity: .5
 }
