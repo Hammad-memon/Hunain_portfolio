@@ -212,6 +212,20 @@ cursor: pointer;
 .buttons{
 margin-left: 10%;
 }
+@media screen and (max-width: 768px){
+    .buttons{
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        .buttons a:last-of-type{
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+}
 .button-1{
     background-color:var(--Purple);
     border:1px solid var(--Purple);
@@ -219,12 +233,12 @@ margin-left: 10%;
     margin-left: 5%;
     padding: 12px 20px;
     border-radius: 4px;
-transition: .3s ease;
-color: white;   
-font-size: 15px;
-text-decoration: none;
-display: inline-block;
-margin-top: 5%;
+    transition: .3s ease;
+    color: white;   
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5%;
 
 }
 .button-1:hover{
@@ -606,6 +620,14 @@ transition: .3s ease;
 color: white;   
 font-size: 15px;
 text-decoration: none;
+}
+@media screen and (max-width: 768px){
+    .submit_div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .submit_button:hover{
     background-color: #ffffff;
