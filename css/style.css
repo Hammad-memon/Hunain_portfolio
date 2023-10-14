@@ -360,6 +360,7 @@ outline: none !important;
 
 .progress-bar{
     background-color: var(--Purple) !important;
+    border-radius: 11.25rem !important; 
 }
 .education{
     color: var(--Purple);
